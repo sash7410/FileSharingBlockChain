@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Secured Sharing App" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:backgroundTint="#E63946"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/boltsemibold"
+        android:text="Create File"
+        android:textAlignment="center"
+        android:textColor="#fafafa"
+        android:textSize="21sp"
+        />
+    <Button
+        android:id="@+id/btnMyFile"
+        android:backgroundTint="#E63946"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/boltsemibold"
+        android:text="My Files"
+        android:textAlignment="center"
+        android:textColor="#fafafa"
+        android:textSize="21sp"
+        />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

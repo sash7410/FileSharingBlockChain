@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1FAEE"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="325dp"
+        android:layout_height="850dp"
+        android:background="#F1FAEE"
+        android:layout_gravity="center"
+        android:layout_weight="0.1"
+        android:padding="5dp"
+        app:srcCompat="@drawable/enter" />
+
+    <TextView
+        android:layout_width="395dp"
+        android:layout_height="67dp"
+        android:layout_gravity="end"
+        android:fontFamily="@font/boltregular"
+        android:text="Select the desired option"
+        android:gravity="center"
+        android:textColor="#d00d2f"
+        android:textSize="25sp" />
+
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="350dp"
+        android:background="#F1FAEE"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:padding="1dp"
+        app:srcCompat="@drawable/receive" />
+</LinearLayout>
